@@ -1,0 +1,6 @@
+# Capturas de revisión y registros locales de Impeccable
+.impeccable/review/
+.impeccable/questions/
+
+# Volantes de referencia del cliente (no forman parte del sitio)
+WhatsApp Image *.jpeg

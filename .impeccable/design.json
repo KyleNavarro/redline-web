@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T18:29:39+00:00",
+  "title": "Design System: Redline",
+  "extensions": {
+    "colorMeta": {
+      "vacuum": {
+        "role": "neutral",
+        "displayName": "Vacío",
+        "canonical": "#0a0e13",
+        "tonalRamp": [
+          "#080b10",
+          "#21252b",
+          "#3e4249",
+          "#5c6268",
+          "#7d838a",
+          "#a0a6ad",
+          "#c4cad1",
+          "#e9eff7"
+        ]
+      },
+      "vacuum-2": {
+        "role": "neutral",
+        "displayName": "Vacío Profundo",
+        "canonical": "#0d131a",
+        "tonalRamp": [
+          "#060c12",
+          "#1f262d",
+          "#3c434b",
+          "#5a626b",
+          "#7b838d",
+          "#9ea6b0",
+          "#c1cad4",
+          "#e7effa"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Acero",
+        "canonical": "#1a2635",
+        "tonalRamp": [
+          "#060c13",
+          "#1d2630",
+          "#394350",
+          "#566272",
+          "#758496",
+          "#99a6b8",
+          "#becada",
+          "#e5f0fe"
+        ]
+      },
+      "steel-2": {
+        "role": "neutral",
+        "displayName": "Acero Claro",
+        "canonical": "#223244",
+        "tonalRamp": [
+          "#050c15",
+          "#1b2632",
+          "#364352",
+          "#536375",
+          "#728499",
+          "#96a7bb",
+          "#bbcbdd",
+          "#e2f0ff"
+        ]
+      },
+      "ring": {
+        "role": "neutral",
+        "displayName": "Anillo",
+        "canonical": "#3a5a7a",
+        "tonalRamp": [
+          "#010c1a",
+          "#13273a",
+          "#2c445d",
+          "#476481",
+          "#6486a8",
+          "#8aa9c8",
+          "#b0cdea",
+          "#d9f2ff"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(122, 152, 186, 0.2)",
+        "tonalRamp": [
+          "#020c1a",
+          "#152639",
+          "#2f445b",
+          "#4a6380",
+          "#6885a6",
+          "#8da8c7",
+          "#b3cce8",
+          "#dbf1ff"
+        ]
+      },
+      "hair-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Fuerte",
+        "canonical": "rgba(122, 152, 186, 0.38)",
+        "tonalRamp": [
+          "#020c1a",
+          "#152639",
+          "#2f445b",
+          "#4a6380",
+          "#6885a6",
+          "#8da8c7",
+          "#b3cce8",
+          "#dbf1ff"
+        ]
+      },
+      "solar": {
+        "role": "primary",
+        "displayName": "Amarillo Traza Solar",
+        "canonical": "#ffd23a",
+        "tonalRamp": [
+          "#1a0500",
+          "#391f00",
+          "#5c3c00",
+          "#805b00",
+          "#a67c00",
+          "#c7a007",
+          "#e8c65d",
+          "#ffec94"
+        ]
+      },
+      "solar-ink": {
+        "role": "neutral",
+        "displayName": "Tinta Solar",
+        "canonical": "#1a1400",
+        "tonalRamp": [
+          "#0e0b02",
+          "#292515",
+          "#47422f",
+          "#67614a",
+          "#898368",
+          "#aca58d",
+          "#cfc9b3",
+          "#f4efdb"
+        ]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "Cian Señal",
+        "canonical": "#35d0ff",
+        "tonalRamp": [
+          "#000f24",
+          "#002c47",
+          "#004c6d",
+          "#006e95",
+          "#0092be",
+          "#30b5de",
+          "#71d9fe",
+          "#a6fdff"
+        ]
+      },
+      "red": {
+        "role": "tertiary",
+        "displayName": "Rojo Vértice",
+        "canonical": "#ff3b2f",
+        "tonalRamp": [
+          "#320000",
+          "#5d0000",
+          "#8b0000",
+          "#bb0000",
+          "#ed261e",
+          "#ff6453",
+          "#ff9582",
+          "#ffc3b0"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Texto",
+        "canonical": "#e8edf2",
+        "tonalRamp": [
+          "#080c0f",
+          "#222529",
+          "#3e4246",
+          "#5d6266",
+          "#7e8387",
+          "#a1a6aa",
+          "#c5cacf",
+          "#eaeff4"
+        ]
+      },
+      "steel-text": {
+        "role": "neutral",
+        "displayName": "Texto Acero",
+        "canonical": "#a7b3c2",
+        "tonalRamp": [
+          "#050c16",
+          "#1d2631",
+          "#39434f",
+          "#586270",
+          "#788392",
+          "#9aa6b5",
+          "#becada",
+          "#e3f0ff"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Apagado",
+        "canonical": "#8796a8",
+        "tonalRamp": [
+          "#060c13",
+          "#1d2630",
+          "#394350",
+          "#566372",
+          "#758495",
+          "#99a7b7",
+          "#becbda",
+          "#e5f0fd"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Solo el titular del hero, 2-3 líneas, tamaño relativo al contenedor."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titulares de sección, mayúsculas, máx. 16ch, cierre con punto rojo."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Servicios, estimador, pasos y valores."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Entrada bajo cada titular, steel-text, máx. 54ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Párrafos y descripciones."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navegación, botones, rótulos de campo, lecturas y pies; mayúsculas mono."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Cifras y resultados con números tabulares."
+      }
+    },
+    "shadows": [
+      {
+        "name": "flotante",
+        "value": "0 10px 30px -8px rgba(0, 0, 0, 0.7)",
+        "purpose": "Exclusivamente el botón fijo de WhatsApp en escritorio."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Transiciones de estado (0.2-0.5s): botones, navegación, rótulos, aislamiento."
+      },
+      {
+        "name": "ease-out-expo",
+        "value": "1 - 2^(-10t)",
+        "purpose": "Ensamblaje radial del detector desde el vértice, una sola vez."
+      },
+      {
+        "name": "hero-arming",
+        "value": "opacity/translateY(0.35em)/blur(6px) 0.9s ease-out, escalonado 0.08s",
+        "purpose": "Entrada del texto del hero junto al ensamblaje."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "560px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "nav",
+        "value": "960px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón solar",
+      "kind": "button",
+      "refersTo": "button-solar",
+      "description": "Acción principal; toda acción que termina en WhatsApp.",
+      "html": "<a class=\"ds-btn-solar\" href=\"#\">Cotizar proyecto solar <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"square\"/></svg></a>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn-solar{display:inline-flex;align-items:center;gap:.75em;min-height:54px;padding:0 1.5em;background:var(--solar);color:var(--solar-ink);font-family:var(--mono);font-size:.875rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1px solid transparent;border-radius:0;transition:background-color .25s var(--ease-out),transform .25s var(--ease-out);} .ds-btn-solar svg{transition:transform .3s var(--ease-out);} .ds-btn-solar:hover{background:#ffe07a;} .ds-btn-solar:hover svg{transform:translateX(4px);} .ds-btn-solar:active{transform:translateY(1px);} .ds-btn-solar:focus-visible{outline:2px solid var(--solar);outline-offset:3px;}"
+    },
+    {
+      "name": "Botón fantasma",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Acción secundaria compacta, p. ej. teléfono en la navegación.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">318 650 5684</a>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn-ghost{display:inline-flex;align-items:center;min-height:42px;padding:0 1em;background:transparent;color:var(--text);border:1px solid var(--hair-strong);border-radius:0;font-family:var(--mono);font-size:.875rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:color .25s var(--ease-out),border-color .25s var(--ease-out);} .ds-btn-ghost:hover{border-color:var(--solar);color:var(--solar);} .ds-btn-ghost:focus-visible{outline:2px solid var(--solar);outline-offset:3px;}"
+    },
+    {
+      "name": "Link line",
+      "kind": "custom",
+      "refersTo": "link-line",
+      "description": "Enlace secundario junto a una acción principal.",
+      "html": "<a class=\"ds-link-line\" href=\"#\">Estimar mi sistema</a>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-link-line{display:inline-block;padding-block:.6em;font-family:var(--mono);font-size:.8125rem;letter-spacing:.08em;text-transform:uppercase;color:var(--signal);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.55em;transition:color .2s;} .ds-link-line:hover{color:var(--text);} .ds-link-line:focus-visible{outline:2px solid var(--solar);outline-offset:3px;}"
+    },
+    {
+      "name": "Campo",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Campo numérico o de texto con rótulo mono y unidad.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field__lbl\">Consumo mensual <em>kWh / mes</em></span><input class=\"ds-input\" type=\"number\" value=\"8000\"></label>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-field{display:grid;gap:8px;} .ds-field__lbl{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--steel-text);} .ds-field__lbl em{font-style:normal;text-transform:none;color:var(--muted);margin-left:.4em;} .ds-input{min-height:50px;padding:12px 14px;background:var(--vacuum);color:var(--text);border:1px solid var(--hair-strong);border-radius:0;font-family:var(--mono);font-size:.95rem;font-variant-numeric:tabular-nums;transition:border-color .2s,background-color .2s;} .ds-input:hover{border-color:var(--ring);} .ds-input:focus{outline:1px solid var(--solar);outline-offset:0;border-color:var(--solar);background:#0c1218;}"
+    },
+    {
+      "name": "Chips de selección",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Selección única de tipo de proyecto.",
+      "html": "<div class=\"ds-chips\"><label><input type=\"radio\" name=\"t\" checked><span>Energía solar</span></label><label><input type=\"radio\" name=\"t\"><span>Eléctricas</span></label><label><input type=\"radio\" name=\"t\"><span>Seguridad</span></label></div>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-chips{display:flex;flex-wrap:wrap;gap:8px;} .ds-chips label{cursor:pointer;} .ds-chips input{position:absolute;opacity:0;pointer-events:none;} .ds-chips span{display:inline-block;padding:10px 14px;border:1px solid var(--hair-strong);border-radius:0;font-family:var(--body);font-size:.9rem;color:var(--steel-text);transition:border-color .2s,color .2s,background-color .2s;} .ds-chips label:hover span{border-color:var(--ring);color:var(--text);} .ds-chips input:checked+span{background:var(--solar);border-color:var(--solar);color:var(--solar-ink);} .ds-chips input:focus-visible+span{outline:2px solid var(--solar);outline-offset:3px;}"
+    },
+    {
+      "name": "Navegación",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Enlaces mono con línea solar que crece en hover/activo.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"true\">Energía solar</a><a href=\"#\">Servicios</a><a href=\"#\">Proceso</a></nav>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-nav{display:flex;gap:34px;background:var(--vacuum);padding:16px;} .ds-nav a{position:relative;padding-block:8px;font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--steel-text);text-decoration:none;transition:color .2s;} .ds-nav a::after{content:'';position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--solar);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease-out);} .ds-nav a:hover{color:var(--text);} .ds-nav a:hover::after,.ds-nav a[aria-current]::after{transform:scaleX(1);} .ds-nav a:focus-visible{outline:2px solid var(--solar);outline-offset:3px;}"
+    },
+    {
+      "name": "Rótulo de traza",
+      "kind": "custom",
+      "refersTo": "track-label",
+      "description": "Caja de lectura de 1px en el color de su traza, con símbolo de partícula y valor mono.",
+      "html": "<a class=\"ds-trk\" href=\"#\" style=\"--c:#ffd23a\"><span class=\"ds-trk__name\"><b>γ</b> Energía solar</span><span class=\"ds-trk__val\">1.240 kWp instalados*</span></a> <a class=\"ds-trk\" href=\"#\" style=\"--c:#35d0ff\"><span class=\"ds-trk__name\"><b>ν</b> Telecomunicaciones</span><span class=\"ds-trk__val\">22 torres y enlaces*</span></a>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-trk{display:inline-grid;gap:3px;padding:8px 12px 9px;background:rgba(10,14,19,.82);border:1px solid var(--c);border-radius:0;color:var(--text);text-decoration:none;white-space:nowrap;transition:background-color .2s;} .ds-trk:hover,.ds-trk:focus-visible{background:rgba(26,38,53,.95);outline:none;} .ds-trk__name{font-family:var(--body);font-size:.9rem;font-weight:600;font-stretch:88%;} .ds-trk__name b{font-family:var(--mono);font-weight:500;color:var(--c);margin-right:6px;} .ds-trk__val{font-family:var(--mono);font-size:.7rem;letter-spacing:.03em;color:var(--steel-text);font-variant-numeric:tabular-nums;}"
+    },
+    {
+      "name": "Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Lista de definición como lectura de instrumento, filas con hairlines.",
+      "html": "<dl class=\"ds-read\"><div><dt>Módulos de 580 W</dt><dd>18</dd></div><div><dt>Área de cubierta</dt><dd>48 m²</dd></div><div><dt>Ahorro mensual estimado</dt><dd class=\"hl\">$ 5.440.000</dd></div><div><dt>CO₂ evitado al año</dt><dd>1,2 t</dd></div></dl>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-read{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--hair-strong);background:var(--vacuum);} .ds-read>div{padding:14px 0 12px;border-bottom:1px solid var(--hair);} .ds-read>div:nth-child(even){padding-left:20px;border-left:1px solid var(--hair);} .ds-read dt{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);} .ds-read dd{margin:4px 0 0;font-family:var(--mono);font-size:1.15rem;font-variant-numeric:tabular-nums;color:var(--text);} .ds-read dd.hl{color:var(--solar);font-size:1.35rem;}"
+    },
+    {
+      "name": "Panel de herramienta",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Contenedor del estimador y del formulario, con esquinas de registro.",
+      "html": "<div class=\"ds-panel\"><h3 class=\"ds-panel__t\">Estima tu sistema solar<i>.</i></h3><p>Toma el consumo de tu factura de energía.</p></div>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-panel{position:relative;padding:clamp(24px,4vw,56px);background:var(--vacuum-2);border:1px solid var(--hair);border-radius:0;color:var(--steel-text);font-family:var(--body);} .ds-panel::before,.ds-panel::after{content:'';position:absolute;width:18px;height:18px;border:0 solid var(--solar);} .ds-panel::before{left:-1px;top:-1px;border-left-width:2px;border-top-width:2px;} .ds-panel::after{right:-1px;bottom:-1px;border-right-width:2px;border-bottom-width:2px;} .ds-panel__t{margin:0 0 .4em;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(1.9rem,1.4rem + 1.6vw,2.75rem);line-height:.95;color:var(--text);} .ds-panel__t i{font-style:normal;color:var(--red);}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Etiqueta de lectura amarilla (alcances, códigos ON-GRID).",
+      "html": "<ul class=\"ds-tags\"><li>Cubiertas industriales</li><li>On-grid</li><li>Híbrido</li></ul>",
+      "css": ":host{--vacuum:#0a0e13;--vacuum-2:#0d131a;--steel:#1a2635;--steel-2:#223244;--ring:#3a5a7a;--hair:rgba(122,152,186,.2);--hair-strong:rgba(122,152,186,.38);--solar:#ffd23a;--solar-ink:#1a1400;--signal:#35d0ff;--red:#ff3b2f;--text:#e8edf2;--steel-text:#a7b3c2;--muted:#8796a8;--display:\"Big Shoulders\",\"Arial Narrow\",sans-serif;--body:\"Archivo\",system-ui,sans-serif;--mono:\"Chivo Mono\",ui-monospace,monospace;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-tags{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:12px;background:var(--vacuum);} .ds-tags li{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--solar);border:1px solid rgba(255,210,58,.4);padding:6px 10px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El display de eventos",
+    "overview": "Cada proyecto Redline se presenta como un evento registrado en un detector de partículas: el punto rojo del logo es el vértice de colisión, la energía solar es la traza dominante y las otras cuatro especialidades son trazas que la acompañan. La superficie es un vacío casi negro con anillos de detector en acero azul; el color no decora, codifica: amarillo es energía, cian es señal, rojo es el vértice y la energía depositada.\n\nLa densidad es la de un instrumento: titulares condensados enormes en mayúsculas frente a rótulos monoespaciados pequeños y tabulares, unidos a lo que describen por líneas guía de 1px. Todo es recto, de esquinas vivas y de trazo fino; la profundidad viene de capas tonales de acero y de los anillos dibujados, no de sombras. La fotografía existe (stock reemplazable) pero siempre instrumentada: con pines y cajas de lectura, o enmarcada con esquinas de registro y un pie monoespaciado.\n\nEl movimiento es de un solo disparo: el detector se ensambla radialmente desde el vértice con ease-out exponencial y no se repite salvo que el visitante pida \"Nuevo evento\". Los estados de servicio se expresan aislando una traza y atenuando el resto.",
+    "keyCharacteristics": [
+      "Vacío oscuro (`vacuum`) como único fondo; `vacuum-2` para paneles y bandas alternas.",
+      "Tres colores de señal con significado fijo: amarillo energía, cian señal, rojo vértice.",
+      "Big Shoulders 800 en mayúsculas para todo titular; Chivo Mono para cada cifra y rótulo.",
+      "Esquinas a 0px; hairlines de 1px como estructura; esquinas de registro como acento.",
+      "Rótulos en cajas de 1px fijadas con líneas guía a su objeto.",
+      "Animación de ensamblaje única, ease-out exponencial, aislamiento por atenuación."
+    ],
+    "rules": [
+      {
+        "name": "The Color Is Code Rule",
+        "body": "Amarillo = energía/acción, cian = señal/enlace, rojo = vértice/energía depositada. Un servicio hereda su color por variable (`--c`): solar y eléctrica en amarillo, telecom y seguridad en cian, civil en texto acero. No se introduce un cuarto color de señal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Full Stop Rule",
+        "body": "El rojo en tipografía aparece solo como el punto final del titular (`<i>.</i>`) y en el \"RED\" del logotipo. Nunca como color de texto corrido ni de botón.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-On-Solar Rule",
+        "body": "Sobre amarillo, el texto es siempre `solar-ink`, nunca blanco.",
+        "section": "colors"
+      },
+      {
+        "name": "The Every-Number-In-Mono Rule",
+        "body": "Toda cifra, unidad, coordenada o código (kWp, COP/kWh, ON-GRID, 7.07°N) va en Chivo Mono con `font-variant-numeric: tabular-nums`. La excepción son las cifras héroe (dial kWp, teléfono), que van en Big Shoulders 800 amarillo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uppercase Display Rule",
+        "body": "Big Shoulders va siempre en 800 y mayúsculas, interlineado entre 0.86 y 1. Archivo nunca se pone en mayúsculas salvo el subtítulo del logotipo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rows Not Cards Rule",
+        "body": "El contenido repetido se apila en filas con hairlines; las únicas cajas son paneles de herramienta (estimador, formulario) y rótulos de lectura.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Instrument Rule",
+        "body": "Paneles, tarjetas y botones no llevan sombra. Si algo necesita separarse, sube un paso de tono o gana un borde de 1px.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** asignar cada servicio a su color de traza vía `--c` (solar/eléctrica amarillo, telecom/seguridad cian, civil texto acero) y mantenerlo en rótulos, símbolos y estados.",
+      "**Do** cerrar cada titular de sección con el punto rojo (`<i>.</i>` en `red`).",
+      "**Do** poner toda cifra y unidad en Chivo Mono tabular, y marcar con asterisco las cifras de ejemplo.",
+      "**Do** anclar rótulos a su objeto con una caja de 1px y una línea guía de 1px.",
+      "**Do** instrumentar las fotos: pines con lectura o marco con esquinas de registro y pie monoespaciado.",
+      "**Do** usar el botón solar para toda acción que termina en WhatsApp.",
+      "**Do** usar `ease-out` (`cubic-bezier(0.16, 1, 0.3, 1)`) para transiciones de estado y el ease-out exponencial para el ensamblaje del detector."
+    ],
+    "donts": [
+      "**Don't** redondear rectángulos: botones, campos, chips, paneles y rótulos van a 0px. Los círculos se reservan para vértice, anillos, dial, mapa y punto de estado.",
+      "**Don't** añadir sombras a paneles, rótulos o botones; la única sombra es la del botón flotante de WhatsApp.",
+      "**Don't** poner texto blanco sobre amarillo ni usar el rojo como color de botón o de texto corrido.",
+      "**Don't** abrir una sección con una foto a pantalla completa bajo el titular ni componer el contenido repetido en cuadrícula de tarjetas; la web rechaza ese patrón corporativo solar.",
+      "**Don't** usar `ring` (#3a5a7a) para texto; es solo trazo.",
+      "**Don't** repetir el ensamblaje del detector en bucle; se dispara una vez o por \"Nuevo evento\"."
+    ]
+  }
+}
